@@ -17,17 +17,14 @@ The following tasks were implemented independently to demonstrate foundational D
 - **Performance Analysis:** Detailed time and space complexity justifications, specifically addressing why naive Fibonacci is inefficient ($O(2^n)$).
 - **Tower of Hanoi:** Recursive solution including a manual state trace for $N=3$ and derivation of time complexity.
 - **Recursive Binary Search:** Implementation with a complexity explanation based on the recurrence intuition $T(n) = T(n/2) + O(1)$.
-- **Stack ADT:** Implementation of Stack data structure with core operations (push, pop, peek, display, etc.).
 
 # 📁 File Structure
 
-| File                | Description                                             |
-| ------------------- | ------------------------------------------------------- |
-| `factor.py`         | Factorial using naive and memoized recursive approaches |
-| `fibbo.py`          | Fibonacci using naive and memoized recursive approaches |
-| `Tower of Hanoi.py` | Tower of Hanoi recursive solution for N=3               |
-| `Binary Serch.py`   | Recursive Binary Search implementation                  |
-| `stack.py`          | Stack ADT implementation with menu-driven interface     |
+| File                                                                   | Description                                                           |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `Recursive factorial and recursive Fibonacci .py`                      | Factorial and Fibonacci using naive and memoized recursive approaches |
+| `Tower of Hanoi recursion + trace for N=3 + time complexity.py`        | Tower of Hanoi recursive solution with time complexity                |
+| `Recursive binary search + recurrence-based complexity explanation.py` | Recursive Binary Search with complexity explanation                   |
 
 # 🛠️ Requirements
 
@@ -37,9 +34,7 @@ The following tasks were implemented independently to demonstrate foundational D
 # 🚀 How to Run
 
 ```bash
-python factor.py
-python fibbo.py
-python "Tower of Hanoi.py"
-python "Binary Serch.py"
-python stack.py
+python "Recursive factorial and recursive Fibonacci .py"
+python "Tower of Hanoi recursion + trace for N=3 + time complexity.py"
+python "Recursive binary search + recurrence-based complexity explanation.py"
 ```
